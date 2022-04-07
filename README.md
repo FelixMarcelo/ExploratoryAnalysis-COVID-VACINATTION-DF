@@ -231,7 +231,7 @@ Vaccination may cause a posterior efect in number of new deaths, but evaluating 
 
 Output:
 <p align="center">
-<img src=(Images-plots/CorrMatrix.png?raw=true />
+<img src=Images-plots/CorrMatrix.png?raw=true />
 </p>
 
 ``` ruby
