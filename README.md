@@ -169,6 +169,7 @@ Output:
 <p align="center">
 <img src=Images-plots/heatmap-dtypes.png />
 </p>
+
 ``` ruby
 # Visualize missing values with missingno
 msno.matrix(dtf)
@@ -178,6 +179,7 @@ Output:
 <p align="center">
 <img src=Images-plots/missing-values.png?raw=true />
 </p>
+
 ``` ruby
 # identify features percentage of missing values
 for feature in dtf.columns:
@@ -231,6 +233,7 @@ Output:
 <p align="center">
 <img src=(Images-plots/CorrMatrix.png?raw=true />
 </p>
+
 ``` ruby
 # correlation matrix
 corr_matrix = dtf_scaled.corr(method="pearson")
