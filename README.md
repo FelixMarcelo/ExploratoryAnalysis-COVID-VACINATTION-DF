@@ -277,7 +277,7 @@ The first was between Mar and May, 2021 and it can be justified by carnaval holi
 <p align="center">
 <img src=Images-plots/linePlot-peak1.png?raw=true />
 </p>
-The second one was really especific, at October 5th, 2021. It may or may not be related to the release of public events in the federal district, published in the official journal of the union, at september 22th, but it's a important information to be ponctuated.
+The second one was really especific, at October 5th, 2021. It may or may not be related to the release of shows and events in the federal district, published in the official journal of the union, at september 22th, but it's a important information to be ponctuated.
 <p align="center">
 <img src=Images-plots/linePlot-peak2.png?raw=true />
 <img src=Images-plots/news.jpeg?raw=true />
