@@ -195,6 +195,8 @@ Output:
     estimated_population_2019 32.7663 % of missing values
     last_available_confirmed_per_100k_inhabitants 32.7663 % of missing values
 
+Summarize cases and merge both datasets
+
 ``` ruby
 # group and summarize cases data frame by date and maintaining estimated_population and last_available_deaths
 dtf = dtf.groupby(["date", "estimated_population", "last_available_deaths"]).sum()
