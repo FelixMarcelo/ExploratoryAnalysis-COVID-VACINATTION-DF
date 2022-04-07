@@ -167,7 +167,7 @@ print("\033[1;37;40m Numeric ", "\033[1;30;47m Categorical ", "\033[1;30;41m Boo
 
 Output: 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/heatmap-dtypes.png?raw=true)
 
 ``` ruby
 # Visualize missing values with missingno
@@ -176,7 +176,7 @@ msno.matrix(dtf)
 
 Output: 
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/missing-values.png?raw=true)
 
 ``` ruby
 # identify features percentage of missing values
@@ -209,7 +209,7 @@ display(dtf)
 
 Output:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/dtf-display.png?raw=true)
 
 Scaling data is important in this type of analysis because the range of variables may differ a lot, and using the original scale may put more weight on the variables with a large range. Typically, it ensures that the mean and the standard deviation are 0 and 1, respectively.
 
@@ -261,21 +261,21 @@ widgets.interact(f, x1 = dtf_scaled.columns, x2 = dtf_scaled.columns, x3 = dtf_s
 
 Output:
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/linePlot-geral-X.png?raw=true)
 
 **It's interesting to note that there are three importante peaks in the occurrence of new confirmed cases:**
 
 The first was between Mar and May, 2021 and it can be justified by carnaval holidays (Feb 12th - 17th). Although traditional festivities were not allowed, it is known that Brazilians never give up and went travelling and had informal parties.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/linePlot-peak1.png?raw=true)
 
 The second one was really especific, at October 5th, 2021. It may or may not be related to the release of public events in the federal district, published in the official journal of the union, at september 22th, but it's a important information to be ponctuated.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/linePlot-peak2.png?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/news.jpeg?raw=true)
 
 The thrid and highest peak was, again, between Jan and Mar, 2022. This period represent summer and carnaval em Brazil and, as showed in chart, the number of new cases and deaths were low and the government had applyed a good number of second doses in Federal District population. What i'm trying to say is: people traveled and had aglomeration parties as if tomorrow would never come. It came... with a great increase in new confirmed cases.
 
-![alt text](https://github.com/[username]/[reponame]/blob/[branch]/image.jpg?raw=true)
+![image](https://github.com/FelixMarcelo/ExploratoryAnalysis-COVID-VACINATTION-DF/tree/main/Images-plots/linePlot-peak3.png?raw=true)
 
 **With the information contained in these datasets, causality between vaccination and new deaths can not be inferred, but clearly the appearance of new deaths stabilized right after the start of 2º doses applications.** 
